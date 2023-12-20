@@ -1,4 +1,4 @@
-## ReviewHub
+# ReviewHub
 ReviewHub is a simple React application that allows users to create, edit, and delete reviews. It leverages Firebase for real-time data storage and image hosting. The app is designed to provide a seamless user experience for managing reviews.
 ### Features
 - Create Reviews: Users can easily create new reviews by providing their name, content, and an optional avatar image.
