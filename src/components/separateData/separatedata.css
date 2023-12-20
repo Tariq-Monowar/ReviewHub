@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300;1,400;1,600;1,700&display=swap");
+
+.card {
+  width: 320px;
+  height: 200px;
+  margin: 10px 15px;
+  box-shadow: rgb(1 52 87 / 17%) 1px -1px 16px 2px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+}
+
+.card-top {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.card-top p {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 11px;
+}
+
+.card-paragraph {
+  text-align: justify;
+}
+
+.userImageContainer {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card .userImage {
+  width: 100%;
+  height: 100%;
+  animation: opacity-animations 1.5s ease-out 0s 1;
+}
+
+@keyframes opacity-animations {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.deleteAndUpdateButton {
+  text-align: right;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+/* .deleteBtn {
+  border: none;
+  font-size: 22px;
+  color: #001125;
+}
+
+.deleteBtn:active {
+  opacity: 0.5;
+} */
+
+.updateBtn {
+  margin-left: 8px;
+  border: none;
+  font-size: 19px;
+  color: #001125;
+}
+
+.updateBtn:active {
+  opacity: 0.5;
+}
+.deleteOrUpdateButton {
+  font-size: 20px;
+  margin-left: auto;
+  color: #001125;
+}
+.deleteOrUpdateButton:active {
+  opacity: 0.5;
+}
+.deleteBtn {
+  width: 110px;
+  border: none;
+  font-size: 17px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  font-family: "Noto Serif", serif;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #efefef;
+}
+.deleteBtn:active {
+  opacity: 0.5;
+}
+.updateBtn {
+  width: 110px;
+  border: none;
+  font-size: 17px;
+  padding: 5px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+  margin-left: -1px;
+  font-family: "Noto Serif", serif;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #efefef;
+}
+.updateBtn:active {
+  opacity: 0.5;
+}
+
+.settingsBar {
+  /* background-color: #d6d6d6;
+   */
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  margin-left: 155px;
+  margin-top: 63px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 6px 5px 7px;
+  box-shadow: rgb(17 17 26 / 22%) -1px 6px 11px 1px,
+    rgb(17 17 26 / 19%) 3px 2px 20px 0px, rgb(17 17 26 / 15%) 2px 7px 56px;
+  animation: opacityopside 0.7s ease-out 0s 1;
+}
+
+@keyframes opacityopside {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
