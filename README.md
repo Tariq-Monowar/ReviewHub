@@ -1,7 +1,7 @@
 # ReviewHub
 ReviewHub is a simple React application that allows users to create, edit, and delete reviews. It leverages Firebase for real-time data storage and image hosting. The app is designed to provide a seamless user experience for managing reviews.
-[Linkdin]([URL](https://www.linkedin.com/posts/tariq-monowar-hossain-3a7b941bb_this-is-an-application-built-with-reactjs-activity-7143294208727003138-_pIt?utm_source=share&utm_medium=member_desktop))
-[Check out ReviewHub](https://github.com/your-username/reviewhub)
+- [Check out my Linkdin]([URL](https://www.linkedin.com/posts/tariq-monowar-hossain-3a7b941bb_this-is-an-application-built-with-reactjs-activity-7143294208727003138-_pIt?utm_source=share&utm_medium=member_desktop)
+
 
 ### Features
 - Create Reviews: Users can easily create new reviews by providing their name, content, and an optional avatar image.
